@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/teammoviesupdates')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/Ecommerce_Shop')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('➡️Channel', url='https://t.me/TeamMoviesNetwork'),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/teammoviesupdates')
+            InlineKeyboardButton('➡️ Channel', url='https://t.me/Hindi_Film_Studio'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Ecommerce_Shop')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Hindi_Film_Studio')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -246,7 +246,7 @@ async def start(client, message):
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
         )
-    await asyncio.sleep(1800) 
+    await asyncio.sleep(600) 
     await dl.delete()                   
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
