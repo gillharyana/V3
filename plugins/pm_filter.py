@@ -107,7 +107,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-    btn.insert(0, [
+    btn.insert([
         InlineKeyboardButton('How To Download', url='https://youtube.com/shorts/8qFxD4ZeKTE?feature=share')
     ])
     try:
@@ -676,7 +676,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
              )   
-    btn.insert(0, [
+    btn.insert([
         InlineKeyboardButton('How To Download', url='https://youtube.com/shorts/8qFxD4ZeKTE?feature=share')
     ])           
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
