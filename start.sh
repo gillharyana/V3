@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
-  echo "Cloning main Repository"
-  git clone https://github.com/test00123/test_repos.git /test_repos
+  echo "Installing Latest Release"
+  git clone https://github.com/pyrogramx/v2.git /v2
 else
-  echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /test_repos
+  echo "Updating from $UPSTREAM_REPO "
+  git clone $UPSTREAM_REPO /v2
 fi
 cd /test_repos
 pip3 install -U -r requirements.txt
