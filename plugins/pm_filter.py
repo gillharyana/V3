@@ -30,7 +30,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
 
-@Client.on_message(filters.group & filters.text & filters.incoming)
+@Client.on_message(filters.text & filters.incoming)
 async def give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
@@ -410,7 +410,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('➡️ Channel', url='https://t.me/Hindi_Film_Studio'),
+            InlineKeyboardButton('📢 Channel', url='https://t.me/Hindi_Movies_File'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/Ecommerce_Shop')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -425,12 +425,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
-        ], [
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
-        ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
         ]]
@@ -442,7 +436,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Hindi_Film_Studio'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Hindi_Movies_File'),
             InlineKeyboardButton('♥️ Channel', url='https://t.me/Ecommerce_Shop')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
