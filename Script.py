@@ -2,10 +2,10 @@ class script(object):
     START_TXT = """<b>Hello {},
 My Name is <a href=https://t.me/{}>{}</a>, I can provide movie 🎬, Just Add me to your group and enjoy 😍</b>"""
     HELP_TXT = """<b>Hello {}
-➛ Add me in your group and just type movie name and follow Download Movie Tutorial!
-➛ Now You can also Type Movie name in this bot and Download Movie 🍿
+➛ Add me in your group and just type movie name and Download Movie!
+➛ Now You can also search 🔍 movie just Type Movie name in this bot and Download Movie 🎬
 
-➛ Download Tutorial: https://youtu.be/j06rjHkpnEk</b>"""
+➛ Download Help: https://youtu.be/j06rjHkpnEk</b>"""
     ABOUT_TXT = """<b>✯My Name: {}
 ✯ Bot Owner: <a href=https://t.me/JordanGill>jorDan GiLL</a>
 ✯ Bot Manager: <a href=https://t.me/HindiFimsHelpBot>HindiFilm Admin</a>
