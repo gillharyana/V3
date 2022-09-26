@@ -109,7 +109,7 @@ async def next_page(bot, query):
         )
     btn.insert(0, [
         InlineKeyboardButton('Download ❓', url='https://youtu.be/j06rjHkpnEk'),
-        InlineKeyboardButton('Help 🔰', url='https://t.me/HindiFimsHelpBot')
+        InlineKeyboardButton('Help 🔰', url='https://t.me/HindiFilmsHelpBot')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -673,7 +673,7 @@ async def auto_filter(client, msg, spoll=False):
              )   
     btn.insert(0, [
         InlineKeyboardButton('Download ❓', url='https://youtu.be/j06rjHkpnEk'),
-        InlineKeyboardButton('Help 🔰', url='https://t.me/HindiFimsHelpBot')
+        InlineKeyboardButton('Help 🔰', url='https://t.me/HindiFilmsHelpBot')
     ])           
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
