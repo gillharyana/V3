@@ -8,13 +8,13 @@ class script(object):
 ➛ Download Help: https://youtu.be/j06rjHkpnEk</b>"""
     ABOUT_TXT = """<b>
 ✯ Bot Owner: <a href=https://t.me/JordanGill>jorDan GiLL</a>
-✯ Bot Manager: <a href=https://t.me/HindiFilmsHelpBot>HindiFilm Admin</a>
-✯ Library: Pyrogram
+✯ Bot Manager: <a href=https://t.me/HindiFilmsHelpBot>HindiFilm Help</a>
+✯ Library: Pyrogram v2.0.57
 ✯ Language: Python 3
 ✯ DataBase: Monogo DB
 ✯ Bot Server: Heroku
 ✯ Bot Creator: <a href=https://t.me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝘃𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>
-✯ Build Status: v1.4.a [ Beta By <a href=https://github.com/VasuXD>@VasuxD</a>]</b>"""
+✯ Build Status: v1.4.a [ Beta ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 ➛ source code: @VasuXD
 
