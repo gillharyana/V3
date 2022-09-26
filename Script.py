@@ -1,25 +1,25 @@
 class script(object):
-    START_TXT = """<b>Hello {},
-My Name is <a href=https://t.me/{}>{}</a>, I can provide movie 🎬, Just Add me to your group and enjoy 😍</b>"""
+    START_TXT = """<b>My Name is <a href=https://t.me/{}>{}</a>, I can provide movie 🎬 Just Add me to your group and enjoy 😍</b>"""
     HELP_TXT = """<b>Hello {}
 ➛ Add me in your group and just type movie name and Download Movie!
+
 ➛ Now You can also search 🔍 movie just Type Movie name in this bot and Download Movie 🎬
 
 ➛ Download Help: https://youtu.be/j06rjHkpnEk</b>"""
-    ABOUT_TXT = """<b>✯My Name: {}
+    ABOUT_TXT = """<b>
 ✯ Bot Owner: <a href=https://t.me/JordanGill>jorDan GiLL</a>
-✯ Bot Manager: <a href=https://t.me/HindiFimsHelpBot>HindiFilm Admin</a>
+✯ Bot Manager: <a href=https://t.me/HindiFilmsHelpBot>HindiFilm Admin</a>
 ✯ Library: Pyrogram
 ✯ Language: Python 3
 ✯ DataBase: Monogo DB
 ✯ Bot Server: Heroku
-✯ Bot Creator: <a href=https://t.me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝗩𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>
+✯ Bot Creator: <a href=https://t.me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝘃𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>
 ✯ Build Status: v1.4.a [ Beta By <a href=https://github.com/VasuXD>@VasuxD</a>]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 ➛ source code: @VasuXD
 
 <b>DEVS:</b>
-➛ <a href=https://t.me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝗩𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>"""
+➛ <a href=https://t.me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝘃𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 ➛ Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
