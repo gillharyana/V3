@@ -2,17 +2,19 @@ class script(object):
     START_TXT = """<b>Hello {},
 My Name is <a href=https://t.me/{}>{}</a>, I can provide movie 🎬, Just Add me to your group and enjoy 😍</b>"""
     HELP_TXT = """<b>Hello {}
-➛ Add me in your group and just type movie name and follow [How To Download Movie?](https://youtu.be/j06rjHkpnEk)!
-➛ Now You can also Type Movie name in this bot and [Download Movie 🍿](https://youtu.be/j06rjHkpnEk)</b>"""
+➛ Add me in your group and just type movie name and follow Download Movie Tutorial!
+➛ Now You can also Type Movie name in this bot and Download Movie 🍿
+
+➛ Download Tutorial: https://youtu.be/j06rjHkpnEk</b>"""
     ABOUT_TXT = """<b>✯My Name: {}
-✯ Bot Owner: @JordanGill
-✯ Bot Manager: @HindiFilm_bot
+✯ Bot Owner: <a href=https://t.me/JordanGill>jorDan GiLL</a>
+✯ Bot Manager: <a href=https://t.me/HindiFimsHelpBot>HindiFilm Admin</a>
 ✯ Library: Pyrogram
 ✯ Language: Python 3
 ✯ DataBase: Monogo DB
 ✯ Bot Server: Heroku
 ✯ Bot Creator: <a href=https://t.me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝗩𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>
-✯ Build Status: v1.4.a [ Beta By @VasuxD]</b>"""
+✯ Build Status: v1.4.a [ Beta By <a href=https://github.com/VasuXD>@VasuxD</a>]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 ➛ source code: @VasuXD
 
@@ -93,17 +95,17 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ Total Movies: <code>{}</code>
+    STATUS_TXT = """<b>★ Total Movies: <code>{}</code>
 ★ Total Users: <code>{}</code>
 ★ Total Groups: <code>{}</code>
 ★ Used Storage: <code>{}</code> 𝙼𝚒𝙱
-★ Free Storage: <code>{}</code> 𝙼𝚒𝙱"""
-    LOG_TEXT_G = """#NewGroup
+★ Free Storage: <code>{}</code> 𝙼𝚒𝙱</b>"""
+    LOG_TEXT_G = """<b>#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
-Added By - {}
+Added By - {}</b>
 """
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """<b>#NewUser
 ID - <code>{}</code>
-Name - {}
+Name - {}</b>
 """
