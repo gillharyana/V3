@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>My Name is <a href=https://t.me/{}>{}</a>, I can provide movie 🎬 Just Add me to your group and enjoy 😍</b>"""
+    START_TXT = """<b>Hello {}, My Name is <a href=https://t.me/{}>{}</a>, I can provide movie 🎬 Just Add me to your group and enjoy 😍</b>"""
     HELP_TXT = """<b>Hello {}
 ➛ Add me in your group and just type movie name and Download Movie!
 
