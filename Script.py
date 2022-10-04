@@ -13,13 +13,13 @@ class script(object):
 ✯ Language: Python 3
 ✯ DataBase: Monogo DB
 ✯ Bot Server: Heroku
-✯ Bot Creator: <a href=https://me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝘃𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>
+✯ Bot Creator: <href=https://me/VasuxD>ㅤ⏤͟͞ ⚝ ‌ 𝘃𝗮𝘀𝘂™ ⏤͟͟͞͞ ✧️</a>
 ✯ Build Status: v1.4.a [ Beta ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 ➛ source code: VasuXD
 
 <b>DEVS:</b>
-➛ <a href=https://me/VasuxD>ㅤ⏤͟͞ ⚝ ‌❛ 𝘃𝗮𝘀𝘂™ ❜⏤͟͟͞͞ ✧️</a>"""
+➛ <href=https://me/VasuxD>ㅤ⏤͟͞ ⚝ ‌ 𝘃𝗮𝘀𝘂™ ⏤͟͟͞͞ ✧️</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 ➛ Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
