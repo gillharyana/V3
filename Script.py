@@ -5,7 +5,7 @@ class script(object):
 
 ➛ Now You can also search 🔍 movie just Type Movie name in this bot and Download Movie 🎬
 
-➛ Download Help: https://youtu.be/j06rjHkpnEk</b>"""
+➛ Download Help: https://youtu.be/pvw7JcbcPcM</b>"""
     ABOUT_TXT = """<b>
 ✯ Bot Owner: <a href=https://t.me/JordanGill>jorDan GiLL</a>
 ✯ Bot Manager: <a href=https://t.me/HindiFilmsHelpBot>HindiFilm Help</a>
