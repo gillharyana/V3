@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('Download ❓', url='https://youtu.be/j06rjHkpnEk'),
+        InlineKeyboardButton('Download ❓', url='https://youtu.be/pvw7JcbcPcM'),
         InlineKeyboardButton('Help 🔰', url='https://t.me/HindiFilmsHelpBot')
     ])
     try:
@@ -672,7 +672,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
              )   
     btn.insert(0, [
-        InlineKeyboardButton('Download ❓', url='https://youtu.be/j06rjHkpnEk'),
+        InlineKeyboardButton('Download ❓', url='https://youtu.be/pvw7JcbcPcM'),
         InlineKeyboardButton('Help 🔰', url='https://t.me/HindiFilmsHelpBot')
     ])           
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
