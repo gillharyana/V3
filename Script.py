@@ -7,7 +7,7 @@ class script(object):
 
 ➛ Download Help: https://youtu.be/pvw7JcbcPcM</b>"""
     ABOUT_TXT = """<b>
-✯ Bot Owner: <a href=https://t.me/JordanGill>jorDan GiLL</a>
+✯ Bot Owner: <a href=https://tme/JordanGill>jorDan GiLL</a>
 ✯ Bot Manager: <a href=https://t.me/HindiFilmsHelpBot>HindiFilm Help</a>
 ✯ Library: Pyrogram v2.0.57
 ✯ Language: Python 3
