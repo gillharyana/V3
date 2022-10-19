@@ -7,7 +7,7 @@ class script(object):
 
 ➛ Download Help: https://youtu.be/pvw7JcbcPcM</b>"""
     ABOUT_TXT = """<b>
-✯ Bot Owner: <a href=https://tme/JordanGill>jorDan GiLL</a>
+✯ 
 ✯ Bot Manager: <a href=https://t.me/HindiFilmsHelpBot>HindiFilm Help</a>
 ✯ Library: Pyrogram v2.0.57
 ✯ Language: Python 3
@@ -95,7 +95,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>★ M: <code>{}</code>
+    STATUS_TXT = """<b>★ M: <code>{</code>
 ★ U: <code>{}</code>
 ★ G: <code>{}</code>
 ★ Used Storage: <code>{}</code> 𝙼𝚒𝙱
