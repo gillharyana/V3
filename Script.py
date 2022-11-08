@@ -7,13 +7,11 @@ class script(object):
 
 ➛ Download Help: https://youtu.be/pvw7JcbcPcM</b>"""
     ABOUT_TXT = """<b>
-✯ 
 ✯ Bot Manager: <a href=https://t.me/HindiFilmsHelpBot>HindiFilm Help</a>
 ✯ Library: Pyrogram v2.0.57
 ✯ Language: Python 3
 ✯ DataBase: Monogo DB
 ✯ Bot Server: Heroku
-✯ Bot Creator: ㅤ⏤͟͞ ⚝ ‌ 𝘃𝗮𝘀𝘂™ ⏤͟͟͞͞ ✧️
 ✯ Build Status: v1.4.a [ Beta ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 ➛ source code: VasuXD
