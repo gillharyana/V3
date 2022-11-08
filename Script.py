@@ -96,8 +96,8 @@ This module only works for my admins
     STATUS_TXT = """<b>★ : <code>{}</code>
 ★ : <code>{}</code>
 ★ : <code>{}</code>
-★ US: <code>{}</code> 𝙼𝚒𝙱
-★ FS: <code>{}</code> 𝙼𝚒𝙱</b>"""
+★ US: <code>{}</code> 
+★ FS: <code>{}</code> </b>"""
     LOG_TEXT_G = """<b>#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
