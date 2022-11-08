@@ -94,10 +94,10 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """<b>★ : <code>{}</code>
-★ : <code>{}</code>
-★ : <code>{}</code>
-★ US: <code>{}</code> 
-★ FS: <code>{}</code> </b>"""
+★   : <code>{}</code>
+★   : <code>{}</code>
+★ US: <code>{}</code>
+★ FS: <code>{}</code></b>"""
     LOG_TEXT_G = """<b>#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
