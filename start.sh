@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Installing Latest Release"
-  git clone https://github.com/gillharyana/v2.git /v2
+  git clone https://github.com/gillharyana/V3.git /v2
 else
   echo "Updating from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /v2
