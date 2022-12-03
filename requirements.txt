@@ -1,4 +1,5 @@
-pyrogram>=2.0.57
+shortzy
+pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
@@ -7,4 +8,7 @@ umongo==3.0.1
 requests
 bs4
 imdbpy==2021.4.18
-shortzy
+heroku3
+pynewtonmath
+pytz
+aiohttp
