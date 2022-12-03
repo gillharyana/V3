@@ -1,3 +1,4 @@
+shortzy
 pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
