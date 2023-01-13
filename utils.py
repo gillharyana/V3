@@ -394,8 +394,8 @@ async def get_shortlink(link):
                     return data['shortlink']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://api.mb.masterbaba.in.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+                    return f'https://mb.masterbaba.in/api?api={}&url={}'
 
     except Exception as e:
         logger.error(e)
-        return f'https://api.mb.masterbaba.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'https://mb.masterbaba.in/api?api={}&url={}'
